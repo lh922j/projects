@@ -4,14 +4,13 @@
 
 ## 📁 프로젝트 구조
 
+```text
 weapon/
-
 ├── preprocessing.py   # 원시 사격 데이터 정제 및 전달정확도 지표 생성
 ├── main.py            # 데이터 증강 + 군집화 + AutoGluon 회귀 + 전 조건 예측
 ├── result.py          # 조건별 가중평균 DA 산출 및 최종 결과 저장
 └── 시각화.ipynb        # 탐색적 데이터 분석(EDA) 및 시각화
-
-
+```
 
 ## 📌 파일별 설명
 
